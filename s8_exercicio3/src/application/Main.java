@@ -23,7 +23,7 @@ public class Main {
 		
 		if (aluno.notaFinal() < 60) {
 			System.out.println("REPROVADO");
-			System.out.printf("Faltou %.2f para você ser aprovado!", aluno.ausenciaDePontos());
+			System.out.printf("Faltou %.2f para vocÃª ser aprovado!", aluno.ausenciaDePontos());
 		}
 		
 		else {
@@ -33,5 +33,4 @@ public class Main {
 		sc.close();
 
 	}
-
 }
