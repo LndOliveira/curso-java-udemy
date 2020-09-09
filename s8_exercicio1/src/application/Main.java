@@ -14,7 +14,7 @@ public class Main {
 		
 		Retangulo retangulo = new Retangulo();
 		
-		System.out.println("Entre com a altura e a largura do ret‚ngulo: ");
+		System.out.println("Entre com a altura e a largura do ret√¢ngulo: ");
 		retangulo.altura = sc.nextDouble();
 		retangulo.largura = sc.nextDouble();
 		
@@ -22,5 +22,4 @@ public class Main {
 		
 		sc.close();
 	}
-
 }
