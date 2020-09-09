@@ -17,16 +17,16 @@ public class Main {
 		System.out.print("Nome: ");
 		funcionario.name = sc.nextLine();
 		
-		System.out.print("Sal·rio Bruto: ");
+		System.out.print("Sal√°rio Bruto: ");
 		funcionario.salarioBruto = sc.nextDouble();
 		
 		System.out.print("Taxa: ");
 		funcionario.taxa = sc.nextDouble();
 		System.out.println();
 		
-		System.out.println("Funcion·rio: " + funcionario);
+		System.out.println("Funcion√°rio: " + funcionario);
 		
-		System.out.print("Porcentagem de acrÈscimo no sal·rio do funcion·rio? ");
+		System.out.print("Porcentagem de acr√©scimo no sal√°rio do funcion√°rio? ");
 		double porcentagemAcrescimo = sc.nextDouble();
 		funcionario.acrescimoSalario(porcentagemAcrescimo);
 		System.out.println();
@@ -37,5 +37,4 @@ public class Main {
 		sc.close();
 
 	}
-
 }
