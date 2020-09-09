@@ -12,10 +12,10 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Qual o valor do dólar? ");
+		System.out.print("Qual o valor do dÃ³lar? ");
 		double dolar = sc.nextDouble();
 		
-		System.out.print("Quantos dólares você deseja comprar? ");
+		System.out.print("Quantos dÃ³lares vocÃª deseja comprar? ");
 		double comprarDolar = sc.nextDouble();
 		
 		double valorPagarDolar = ConversorDeMoedas.somaValorDolar(dolar, comprarDolar);
@@ -24,5 +24,4 @@ public class Main {
 		sc.close();
 
 	}
-
 }
